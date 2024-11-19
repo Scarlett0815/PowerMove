@@ -1,0 +1,1 @@
+['IIII', 'IIIZ', 'IIZZ', 'IZII', 'ZZZI', 'IIZI', 'IZIZ', 'IXZX', 'ZXIX', 'IXIX', 'ZXZX', 'ZZZZ', 'IZZZ', 'ZZIZ', 'ZIZI']

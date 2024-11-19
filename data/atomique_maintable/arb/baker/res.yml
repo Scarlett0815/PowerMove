@@ -1,0 +1,573 @@
+- circ_stats:
+    depth: 422
+    n_1q_gate: 1211
+    n_1q_layer: 851
+    n_2q_gate: 235
+    n_2q_layer: 212
+    n_qubits: 7
+  compilation_time: 3.902681350708008
+  fidelity:
+    1q_gate: 0.9076614018248227
+    2q_gate: 0.555306202445069
+    decoherence: 0.9997142378377868
+    total_fidelity: 0.5038859734489314
+  hyperparams:
+    T_per_move: 0.0003
+    atom_distance: 1.4999999999999999e-05
+    atom_loss_prob: 0.0068
+    atom_transfer_time: 1.4999999999999999e-05
+    base_set: default0
+    configs:
+      backend_params:
+        base_set: default0
+        nonretranspile_changes:
+          backer_penalty:
+          - 0
+          geyser_dump_transpiled_qasm:
+          - false
+        retranspile_changes: {}
+      benchmarks:
+      - n_qubits:
+        - 7
+        name: algorithm
+        type:
+        - hhl
+      - n_qubits:
+        - 10
+        name: supermarq
+        type:
+        - mermin_bell
+      - n_qubits:
+        - 32
+        name: QASMBench
+        type:
+        - QV
+      - n_qubits:
+        - 50
+        name: QASMBench
+        type:
+        - bv
+      - n_qubits:
+        - 70
+        name: algorithm
+        type:
+        - bv
+      compiler:
+        name: baker
+        print_log: false
+      count_gates: true
+      result_path: results/13_isca_maintable/arb/baker
+    cooling_deltaN_thres: 15
+    dump_full_report: false
+    faa_cmap_bidirect: true
+    faa_seed_transpiler: 0
+    flying_1gate_per_stage_for_QAOA: false
+    flying_QSIM_max_ancilla: 9999
+    flying_search_method: DP
+    flying_square_mapping: true
+    fpqac_allow_order_violation: false
+    fpqac_allow_overlap_violation: false
+    fpqac_generic_cmap_bidirect: true
+    fpqac_generic_n_cols_cmap: 10
+    fpqac_generic_n_rows_cmap: 10
+    fpqac_generic_partition_factor: 0.9
+    fpqac_generic_partition_method: heuristic
+    fpqac_generic_seed_transpiler: 0
+    fpqac_individual_addressable: false
+    fpqac_qubit_array_mapper: default
+    fpqac_qubit_atom_mapper: default
+    fpqac_router: default
+    full_report_path: null
+    geyser_dump_transpiled_qasm: false
+    geyser_generic_seed_transpiler: 5
+    geyser_use_blocking: false
+    lambd: 0.109375
+    log_path: null
+    n_aods: 2
+    n_atoms_per_array: 100
+    n_cols: 10
+    n_rows: 10
+    na_1Q_fidelity: 0.99992
+    na_1Q_time: 6.25e-07
+    na_2Q_fidelity: 0.9975
+    na_2Q_fidelity_long_range: 0.9975
+    na_2Q_time: 3.8e-07
+    na_N_max: 33
+    na_T1: 15.0
+    na_simultaneous_1q_gate: 10000000000.0
+    omega_0: 502654.8245743669
+    retranspile: true
+    sc_1Q_fidelity: 0.99992
+    sc_1Q_time: 3.5200000000000004e-08
+    sc_2Q_fidelity: 0.9975
+    sc_2Q_time: 4.800000000000001e-07
+    sc_T1: null
+    sc_T2: 0.0008012
+    sc_seed_transpiler: 0
+    sc_simultaneous_1q_gate: 10000000000.0
+    two_q_error_delta_N: 0.00027343749999999417
+    x_zpf: 3.8e-08
+  path: benchmarks/algorithm/hhl_n7.qasm
+  time:
+    1q_gate: 0.000531875
+    2q_gate: 8.056e-05
+    total_time: 0.000612435
+- circ_stats:
+    depth: 185
+    n_1q_gate: 348
+    n_1q_layer: 166
+    n_2q_gate: 157
+    n_2q_layer: 122
+    n_qubits: 10
+  compilation_time: 1.1791279315948486
+  fidelity:
+    1q_gate: 0.9725428783050635
+    2q_gate: 0.6750345229916914
+    decoherence: 0.9998999316738356
+    total_fidelity: 0.6564343230877023
+  hyperparams:
+    T_per_move: 0.0003
+    atom_distance: 1.4999999999999999e-05
+    atom_loss_prob: 0.0068
+    atom_transfer_time: 1.4999999999999999e-05
+    base_set: default0
+    configs:
+      backend_params:
+        base_set: default0
+        nonretranspile_changes:
+          backer_penalty:
+          - 0
+          geyser_dump_transpiled_qasm:
+          - false
+        retranspile_changes: {}
+      benchmarks:
+      - n_qubits:
+        - 7
+        name: algorithm
+        type:
+        - hhl
+      - n_qubits:
+        - 10
+        name: supermarq
+        type:
+        - mermin_bell
+      - n_qubits:
+        - 32
+        name: QASMBench
+        type:
+        - QV
+      - n_qubits:
+        - 50
+        name: QASMBench
+        type:
+        - bv
+      - n_qubits:
+        - 70
+        name: algorithm
+        type:
+        - bv
+      compiler:
+        name: baker
+        print_log: false
+      count_gates: true
+      result_path: results/13_isca_maintable/arb/baker
+    cooling_deltaN_thres: 15
+    dump_full_report: false
+    faa_cmap_bidirect: true
+    faa_seed_transpiler: 0
+    flying_1gate_per_stage_for_QAOA: false
+    flying_QSIM_max_ancilla: 9999
+    flying_search_method: DP
+    flying_square_mapping: true
+    fpqac_allow_order_violation: false
+    fpqac_allow_overlap_violation: false
+    fpqac_generic_cmap_bidirect: true
+    fpqac_generic_n_cols_cmap: 10
+    fpqac_generic_n_rows_cmap: 10
+    fpqac_generic_partition_factor: 0.9
+    fpqac_generic_partition_method: heuristic
+    fpqac_generic_seed_transpiler: 0
+    fpqac_individual_addressable: false
+    fpqac_qubit_array_mapper: default
+    fpqac_qubit_atom_mapper: default
+    fpqac_router: default
+    full_report_path: null
+    geyser_dump_transpiled_qasm: false
+    geyser_generic_seed_transpiler: 5
+    geyser_use_blocking: false
+    lambd: 0.109375
+    log_path: null
+    n_aods: 2
+    n_atoms_per_array: 100
+    n_cols: 10
+    n_rows: 10
+    na_1Q_fidelity: 0.99992
+    na_1Q_time: 6.25e-07
+    na_2Q_fidelity: 0.9975
+    na_2Q_fidelity_long_range: 0.9975
+    na_2Q_time: 3.8e-07
+    na_N_max: 33
+    na_T1: 15.0
+    na_simultaneous_1q_gate: 10000000000.0
+    omega_0: 502654.8245743669
+    retranspile: true
+    sc_1Q_fidelity: 0.99992
+    sc_1Q_time: 3.5200000000000004e-08
+    sc_2Q_fidelity: 0.9975
+    sc_2Q_time: 4.800000000000001e-07
+    sc_T1: null
+    sc_T2: 0.0008012
+    sc_seed_transpiler: 0
+    sc_simultaneous_1q_gate: 10000000000.0
+    two_q_error_delta_N: 0.00027343749999999417
+    x_zpf: 3.8e-08
+  path: benchmarks/supermarq/supermarq_mermin_bell_n10.qasm
+  time:
+    1q_gate: 0.00010375000000000001
+    2q_gate: 4.636e-05
+    total_time: 0.00015011
+  type: mermin_bell
+- circ_stats:
+    depth: 2582
+    n_1q_gate: 10354
+    n_1q_layer: 2532
+    n_2q_gate: 4716
+    n_2q_layer: 2304
+    n_qubits: 32
+  compilation_time: 276.55522108078003
+  fidelity:
+    1q_gate: 0.4367679924620328
+    2q_gate: 7.4689053530030205e-06
+    decoherence: 0.9947699485933253
+    total_fidelity: 3.2451174341144037e-06
+  hyperparams:
+    T_per_move: 0.0003
+    atom_distance: 1.4999999999999999e-05
+    atom_loss_prob: 0.0068
+    atom_transfer_time: 1.4999999999999999e-05
+    base_set: default0
+    configs:
+      backend_params:
+        base_set: default0
+        nonretranspile_changes:
+          backer_penalty:
+          - 0
+          geyser_dump_transpiled_qasm:
+          - false
+        retranspile_changes: {}
+      benchmarks:
+      - n_qubits:
+        - 7
+        name: algorithm
+        type:
+        - hhl
+      - n_qubits:
+        - 10
+        name: supermarq
+        type:
+        - mermin_bell
+      - n_qubits:
+        - 32
+        name: QASMBench
+        type:
+        - QV
+      - n_qubits:
+        - 50
+        name: QASMBench
+        type:
+        - bv
+      - n_qubits:
+        - 70
+        name: algorithm
+        type:
+        - bv
+      compiler:
+        name: baker
+        print_log: false
+      count_gates: true
+      result_path: results/13_isca_maintable/arb/baker
+    cooling_deltaN_thres: 15
+    dump_full_report: false
+    faa_cmap_bidirect: true
+    faa_seed_transpiler: 0
+    flying_1gate_per_stage_for_QAOA: false
+    flying_QSIM_max_ancilla: 9999
+    flying_search_method: DP
+    flying_square_mapping: true
+    fpqac_allow_order_violation: false
+    fpqac_allow_overlap_violation: false
+    fpqac_generic_cmap_bidirect: true
+    fpqac_generic_n_cols_cmap: 10
+    fpqac_generic_n_rows_cmap: 10
+    fpqac_generic_partition_factor: 0.9
+    fpqac_generic_partition_method: heuristic
+    fpqac_generic_seed_transpiler: 0
+    fpqac_individual_addressable: false
+    fpqac_qubit_array_mapper: default
+    fpqac_qubit_atom_mapper: default
+    fpqac_router: default
+    full_report_path: null
+    geyser_dump_transpiled_qasm: false
+    geyser_generic_seed_transpiler: 5
+    geyser_use_blocking: false
+    lambd: 0.109375
+    log_path: null
+    n_aods: 2
+    n_atoms_per_array: 100
+    n_cols: 10
+    n_rows: 10
+    na_1Q_fidelity: 0.99992
+    na_1Q_time: 6.25e-07
+    na_2Q_fidelity: 0.9975
+    na_2Q_fidelity_long_range: 0.9975
+    na_2Q_time: 3.8e-07
+    na_N_max: 33
+    na_T1: 15.0
+    na_simultaneous_1q_gate: 10000000000.0
+    omega_0: 502654.8245743669
+    retranspile: true
+    sc_1Q_fidelity: 0.99992
+    sc_1Q_time: 3.5200000000000004e-08
+    sc_2Q_fidelity: 0.9975
+    sc_2Q_time: 4.800000000000001e-07
+    sc_T1: null
+    sc_T2: 0.0008012
+    sc_seed_transpiler: 0
+    sc_simultaneous_1q_gate: 10000000000.0
+    two_q_error_delta_N: 0.00027343749999999417
+    x_zpf: 3.8e-08
+  path: benchmarks/QASMBench/QV_n32.qasm
+  time:
+    1q_gate: 0.0015825000000000001
+    2q_gate: 0.0008755200000000001
+    total_time: 0.00245802
+  type: QV
+- circ_stats:
+    depth: 46
+    n_1q_gate: 106
+    n_1q_layer: 42
+    n_2q_gate: 37
+    n_2q_layer: 33
+    n_qubits: 50
+  compilation_time: 1.0414013862609863
+  fidelity:
+    1q_gate: 0.9915555174281082
+    2q_gate: 0.9115436316260968
+    decoherence: 0.9998707083588847
+    total_fidelity: 0.9037292575674879
+  hyperparams:
+    T_per_move: 0.0003
+    atom_distance: 1.4999999999999999e-05
+    atom_loss_prob: 0.0068
+    atom_transfer_time: 1.4999999999999999e-05
+    base_set: default0
+    configs:
+      backend_params:
+        base_set: default0
+        nonretranspile_changes:
+          backer_penalty:
+          - 0
+          geyser_dump_transpiled_qasm:
+          - false
+        retranspile_changes: {}
+      benchmarks:
+      - n_qubits:
+        - 7
+        name: algorithm
+        type:
+        - hhl
+      - n_qubits:
+        - 10
+        name: supermarq
+        type:
+        - mermin_bell
+      - n_qubits:
+        - 32
+        name: QASMBench
+        type:
+        - QV
+      - n_qubits:
+        - 50
+        name: QASMBench
+        type:
+        - bv
+      - n_qubits:
+        - 70
+        name: algorithm
+        type:
+        - bv
+      compiler:
+        name: baker
+        print_log: false
+      count_gates: true
+      result_path: results/13_isca_maintable/arb/baker
+    cooling_deltaN_thres: 15
+    dump_full_report: false
+    faa_cmap_bidirect: true
+    faa_seed_transpiler: 0
+    flying_1gate_per_stage_for_QAOA: false
+    flying_QSIM_max_ancilla: 9999
+    flying_search_method: DP
+    flying_square_mapping: true
+    fpqac_allow_order_violation: false
+    fpqac_allow_overlap_violation: false
+    fpqac_generic_cmap_bidirect: true
+    fpqac_generic_n_cols_cmap: 10
+    fpqac_generic_n_rows_cmap: 10
+    fpqac_generic_partition_factor: 0.9
+    fpqac_generic_partition_method: heuristic
+    fpqac_generic_seed_transpiler: 0
+    fpqac_individual_addressable: false
+    fpqac_qubit_array_mapper: default
+    fpqac_qubit_atom_mapper: default
+    fpqac_router: default
+    full_report_path: null
+    geyser_dump_transpiled_qasm: false
+    geyser_generic_seed_transpiler: 5
+    geyser_use_blocking: false
+    lambd: 0.109375
+    log_path: null
+    n_aods: 2
+    n_atoms_per_array: 100
+    n_cols: 10
+    n_rows: 10
+    na_1Q_fidelity: 0.99992
+    na_1Q_time: 6.25e-07
+    na_2Q_fidelity: 0.9975
+    na_2Q_fidelity_long_range: 0.9975
+    na_2Q_time: 3.8e-07
+    na_N_max: 33
+    na_T1: 15.0
+    na_simultaneous_1q_gate: 10000000000.0
+    omega_0: 502654.8245743669
+    retranspile: true
+    sc_1Q_fidelity: 0.99992
+    sc_1Q_time: 3.5200000000000004e-08
+    sc_2Q_fidelity: 0.9975
+    sc_2Q_time: 4.800000000000001e-07
+    sc_T1: null
+    sc_T2: 0.0008012
+    sc_seed_transpiler: 0
+    sc_simultaneous_1q_gate: 10000000000.0
+    two_q_error_delta_N: 0.00027343749999999417
+    x_zpf: 3.8e-08
+  path: benchmarks/QASMBench/bv_n50.qasm
+  time:
+    1q_gate: 2.625e-05
+    2q_gate: 1.254e-05
+    total_time: 3.879e-05
+  type: bv
+- circ_stats:
+    depth: 135
+    n_1q_gate: 364
+    n_1q_layer: 126
+    n_2q_gate: 153
+    n_2q_layer: 104
+    n_qubits: 70
+  compilation_time: 2.524920701980591
+  fidelity:
+    1q_gate: 0.971298770054989
+    2q_gate: 0.6818272697541878
+    decoherence: 0.9994482256168383
+    total_fidelity: 0.6618925715090942
+  hyperparams:
+    T_per_move: 0.0003
+    atom_distance: 1.4999999999999999e-05
+    atom_loss_prob: 0.0068
+    atom_transfer_time: 1.4999999999999999e-05
+    base_set: default0
+    configs:
+      backend_params:
+        base_set: default0
+        nonretranspile_changes:
+          backer_penalty:
+          - 0
+          geyser_dump_transpiled_qasm:
+          - false
+        retranspile_changes: {}
+      benchmarks:
+      - n_qubits:
+        - 7
+        name: algorithm
+        type:
+        - hhl
+      - n_qubits:
+        - 10
+        name: supermarq
+        type:
+        - mermin_bell
+      - n_qubits:
+        - 32
+        name: QASMBench
+        type:
+        - QV
+      - n_qubits:
+        - 50
+        name: QASMBench
+        type:
+        - bv
+      - n_qubits:
+        - 70
+        name: algorithm
+        type:
+        - bv
+      compiler:
+        name: baker
+        print_log: false
+      count_gates: true
+      result_path: results/13_isca_maintable/arb/baker
+    cooling_deltaN_thres: 15
+    dump_full_report: false
+    faa_cmap_bidirect: true
+    faa_seed_transpiler: 0
+    flying_1gate_per_stage_for_QAOA: false
+    flying_QSIM_max_ancilla: 9999
+    flying_search_method: DP
+    flying_square_mapping: true
+    fpqac_allow_order_violation: false
+    fpqac_allow_overlap_violation: false
+    fpqac_generic_cmap_bidirect: true
+    fpqac_generic_n_cols_cmap: 10
+    fpqac_generic_n_rows_cmap: 10
+    fpqac_generic_partition_factor: 0.9
+    fpqac_generic_partition_method: heuristic
+    fpqac_generic_seed_transpiler: 0
+    fpqac_individual_addressable: false
+    fpqac_qubit_array_mapper: default
+    fpqac_qubit_atom_mapper: default
+    fpqac_router: default
+    full_report_path: null
+    geyser_dump_transpiled_qasm: false
+    geyser_generic_seed_transpiler: 5
+    geyser_use_blocking: false
+    lambd: 0.109375
+    log_path: null
+    n_aods: 2
+    n_atoms_per_array: 100
+    n_cols: 10
+    n_rows: 10
+    na_1Q_fidelity: 0.99992
+    na_1Q_time: 6.25e-07
+    na_2Q_fidelity: 0.9975
+    na_2Q_fidelity_long_range: 0.9975
+    na_2Q_time: 3.8e-07
+    na_N_max: 33
+    na_T1: 15.0
+    na_simultaneous_1q_gate: 10000000000.0
+    omega_0: 502654.8245743669
+    retranspile: true
+    sc_1Q_fidelity: 0.99992
+    sc_1Q_time: 3.5200000000000004e-08
+    sc_2Q_fidelity: 0.9975
+    sc_2Q_time: 4.800000000000001e-07
+    sc_T1: null
+    sc_T2: 0.0008012
+    sc_seed_transpiler: 0
+    sc_simultaneous_1q_gate: 10000000000.0
+    two_q_error_delta_N: 0.00027343749999999417
+    x_zpf: 3.8e-08
+  path: benchmarks/algorithm/bv_n70.qasm
+  time:
+    1q_gate: 7.875e-05
+    2q_gate: 3.952e-05
+    total_time: 0.00011827
